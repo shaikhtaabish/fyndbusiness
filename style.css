@@ -702,6 +702,7 @@ img.highlight {
     border: 1px solid #D7D7D7;
     border-radius: 0px 0px 4px 4px;
     background-color: #FFFFFF;
+    border-top: none;
 }
 
 .eighttextone {
