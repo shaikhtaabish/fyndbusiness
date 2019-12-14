@@ -7,6 +7,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     max-width: 1024px;
+    overflow-x: hidden;
 }
 
 .main {
@@ -457,7 +458,6 @@ img.tick {
     padding-left: 24px;
     padding-top: 8px;
     width: 337px;
-    justify-content: space-between;
 }
 
 .divthirdtext {
@@ -928,23 +928,22 @@ img.highlight {
 @media only screen and (max-width: 768px) {
     .firstsectionh1 {
         height: 33px;
-        width: 142px;
+        width: 100%;
         color: #41434C;
         font-size: 20px;
         font-weight: bold;
         line-height: 35px;
         padding-top: 43px;
         text-align: left;
-        padding-left: 24px;
+        padding-left: 0px;
     }
     .firstsectionh2 {
         height: 52px;
-        width: 360px;
+        width: 100%;
         font-size: 14px;
         line-height: 24px;
         padding-top: 5px;
-        padding-left: 24px;
-        padding-right: 11%;
+        padding-left: 0px;
     }
     img.highlight {
         height: 29px;
@@ -955,82 +954,82 @@ img.highlight {
     .sixthsection {
         box-sizing: border-box;
         height: 48px;
-        width: 348px;
+        width: 95%;
         background-color: #FAFAFA;
         margin: 0 auto;
         margin-top: 12px;
-        margin-left: 4%;
+
     }
     .seventhsection {
         box-sizing: border-box;
         height: 48px;
-        width: 348px;
+        width: 95%;
         margin: 0 auto;
         border: 1px solid #D7D7D7;
         border-radius: 4px 4px 0px 0px;
         background-color: #FFFFFF;
-        margin-left: 4%;
+
     }
     .eightsection {
         box-sizing: border-box;
-        width: 348px;
-        margin: 0 auto;
-        border: 1px solid #D7D7D7;
-        border-radius: 0px 0px 4px 4px;
-        background-color: #FFFFFF;
-        margin-left: 4%;
-        border-top: none;
-    }
-    .ninthsection {
-        box-sizing: border-box;
-        height: 78px;
-        width: 348px;
-        margin: 0 auto;
-        border: 1px solid #D7D7D7;
-        border-radius: 4px 4px 0px 0px;
-        background-color: #FFFFFF;
-        margin-top: 15px;
-        margin-left: 4%;
-    }
-    .tenthsection {
-        box-sizing: border-box;
-        height: 78px;
-        width: 348px;
+        width: 95%;
         margin: 0 auto;
         border: 1px solid #D7D7D7;
         border-radius: 0px 0px 4px 4px;
         background-color: #FFFFFF;
         border-top: none;
-        margin-left: 4%;
+
     }
+  .ninthsection {
+    box-sizing: border-box;
+    height: 78px;
+    width: 95%;
+    margin: 0 auto;
+    border: 1px solid #D7D7D7;
+    border-radius: 4px 4px 0px 0px;
+    background-color: #FFFFFF;
+    margin-top: 15px;
+    justify-content: center;
+    display: flex;
+}
+  .tenthsection {
+    box-sizing: border-box;
+    height: 78px;
+    width: 95%;
+    margin: 0 auto;
+    border: 1px solid #D7D7D7;
+    border-radius: 0px 0px 4px 4px;
+    background-color: #FFFFFF;
+    border-top: none;
+    display: flex;
+    justify-content: center;
+}
     .forthsection {
         display: block;
         justify-content: space-between;
-        width: 348px;
+        width: 95%;
         margin: 0 auto;
         margin-top: 12px;
         border: 1px solid #D7D7D7;
         border-radius: 3px;
         height: 219px;
-        margin-left: 4%;
         height: 408px;
     }
     .thirdsection {
         box-sizing: border-box;
         height: 48px;
-        width: 350px;
+        width: 95%;
         border: 1px solid #D7D7D7;
         border-left: 4px solid #00C853;
         border-radius: 3px;
         background-color: #FFFFFF;
         margin: 0 auto;
         margin-top: 12px;
-        margin-left: 4%;
     }
     .secondsection {
         box-sizing: border-box;
         height: 325px;
-        width: 348px;
+        width: 95%;
         border: 1px solid #D7D7D7;
         border-radius: 3px;
         background-color: #FFFFFF;
@@ -1038,27 +1037,26 @@ img.highlight {
         display: flex;
         justify-content: space-between;
         position: relative;
-        margin-left: 4%;
     }
     .parentrightsection {
         padding-right: 8%;
     }
     .navleft {
         padding-top: 14px;
-        padding-right: 0px;
+        padding-right: 6px;
     }
     .headersecondline {
         height: 24px;
-        width: 108px;
+        width: 100%;
         font-size: 14px;
         line-height: 24px;
         opacity: 0.87;
         float: right;
-        padding-right: 8px;
+        padding-right: 0px;
     }
     .headerfirstline {
         height: 23px;
-        width: 215px;
+        width: 100%;
         font-size: 16px;
         line-height: 25px;
         font-weight: bold;
@@ -1068,7 +1066,7 @@ img.highlight {
     .eighttextright {
         flex: 1;
         padding-top: 14px;
-        width: 360px;
+        width: 100%;
         color: #41434C;
         font-family: Poppins;
         font-size: 14px;
@@ -1088,18 +1086,19 @@ img.highlight {
     margin-left: 5px;
     margin-right: 6px;
 }
-    .followus {
-        font-weight: bold;
-        color: #BCBCBC;
-        font-size: 12px;
-        display: block;
-        padding-left: 30%;
-    }
-    .navimageflex {
-        display: block;
-        justify-content: center;
-        padding-left: 9%;
-    }
+   .followus {
+    font-weight: bold;
+    color: #BCBCBC;
+    font-size: 12px;
+    display: block;
+    text-align: center;
+    display: flex;
+}
+   .navimageflex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
     .address {
         display: block;
         justify-content: center;
@@ -1107,43 +1106,40 @@ img.highlight {
         color: #BCBCBC;
         font-size: 12px;
         margin-top: 5px;
-        padding-left: 4%;
-        max-width: 360px;
+        width: 100%;
     }
     .address1 {
-        display: block;
-        justify-content: left;
-        text-align: left;
-        color: #BCBCBC;
-        font-size: 12px;
-        padding-left: 20%;
-    }
-    .privacyline {
-        display: flex;
-        text-align: left;
-        justify-content: left;
-        padding-left: 15%;
-    }
-    .thisemail {
-        display: flex;
-        justify-content: left;
-        text-align: left;
-        color: #BCBCBC;
-        font-size: 10px;
-        padding-left: 16%;
-    }
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #BCBCBC;
+    font-size: 12px;
+}
+   .privacyline {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+   .thisemail {
+    display: flex;
+    text-align: left;
+    color: #BCBCBC;
+    font-size: 10px;
+    width: 100%;
+    text-align: center;
+}
     .unsubscribeparent {
-        display: flex;
-        justify-content: left;
-        text-align: left;
-        padding-left: 21%;
-    }
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 5%;
+}
     .thirdimagetext {
         display: flex;
-        padding-left: 6px;
+        padding-left: 0px;
         padding-top: 8px;
-        width: 337px;
-        justify-content: space-between;
+        width: 100%;
     }
  .ninthtextright {
     flex: 1;
@@ -1158,7 +1154,7 @@ img.highlight {
 }
     .forthsectionh1 {
         height: 45px;
-        width: 73px;
+        width: 100%;
         color: #41434C;
         font-family: Poppins;
         font-size: 20px;
@@ -1169,7 +1165,7 @@ img.highlight {
     }
     .forthsectionh2 {
         height: 24.6px;
-        width: 209px;
+        width: 100%;
         color: #41434C;
         font-family: Poppins;
         font-size: 16px;
@@ -1178,7 +1174,7 @@ img.highlight {
     }
     .forthsectionh11 {
         height: 45px;
-        width: 73px;
+        width: 95%;
         color: #41434C;
         font-family: Poppins;
         font-size: 20px;
@@ -1186,18 +1182,21 @@ img.highlight {
         letter-spacing: 0.24px;
         line-height: 40px;
         padding-top: 11px;
-    }
-    .forthsectionright {
         padding-left: 24px;
-        border-top: 1px solid #D7D7D7;
-        margin-top: 6%;
     }
+   .forthsectionright {
+    border-top: 1px solid #D7D7D7;
+    margin-top: 6%;
+    width: 100%;
+    padding-right: 0px;
+}
     .divthirdtext {
     padding-top: 4px;
     padding-right: 2%;
+    padding-left: 2%;
 }
 .brandlogosection {
-    padding-left: 0%;
+    padding-left: 6%;
 }
 .containers-alignment {
     display: flex;
@@ -1205,11 +1204,12 @@ img.highlight {
     position: absolute;
     bottom: 0;
   width: 100%;
-    padding: 10px;
+    padding: 0px;
+    padding-bottom: 19px;
 }
 .secondsectionlefth1 {
     height: 45px;
-    width: 43px;
+    width: 100%;
     color: #41434C;
     font-family: Poppins;
     font-size: 20px;
@@ -1230,7 +1230,7 @@ img.highlight {
 }
 .secondsectionrighth2 {
     height: 45px;
-    width: 105px;
+    width: 100%;
     color: #41434C;
     font-size: 20px;
     font-weight: bold;
@@ -1247,17 +1247,86 @@ img.highlight {
 }
 .secondsectionrighth3 {
     height: 25px;
-    width: 113px;
+    width: 100%;
     color: #41434C;
     font-size: 14px;
     line-height: 25px;
 }
 .secondsectionlefth2 {
     height: 25px;
-    width: 89px;
+    width: 100%;
     font-size: 14px;
     line-height: 25px;
     padding-top: 4px;
     padding-bottom: 10px;
+}
+.rightdottedline {
+    width: 100%;
+    height: 140px;
+    border-bottom: 1px dashed #D7D7D7;
+    margin-right: 5%;
+}
+.forthsectionh12 {
+    height: 24.6px;
+    width: 95%;
+    color: #41434C;
+    font-family: Poppins;
+    font-size: 16px;
+    line-height: 25px;
+    padding-top: 12px;
+    padding-left: 24px;
+}
+.fifthsection {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+}
+.navbarparent {
+    height: 78px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 24px;
+}
+.unsubscribechild1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #BCBCBC;
+    font-size: 10px;
+    text-decoration: underline;
+}
+.firstsection {
+    padding-bottom: 25px;
+    margin-left: 11px;
+    width: 95%;
+}
+.navright {
+    padding-top: 16px;
+    padding-left: 6px;
+}
+img.tick {
+    height: 32px;
+    width: 32px;
+    padding-left: 2%;
+}
+.forthsectionh13 {
+    height: 23px;
+    color: #41434C;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.12px;
+    line-height: 25px;
+    padding-left: 24px;
+}
+.forthsectionh15 {
+    height: 23px;
+    color: #41434C;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.12px;
+    line-height: 25px;
+     padding-left: 24px;
 }
 }
