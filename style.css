@@ -256,7 +256,7 @@ img.wallet {
 .walletlogo {
     height: 53px;
     width: 48px;
-    margin-right: 24px;
+    padding-right: 24px;
 }
 
 .secondsectionrighthead {
@@ -288,7 +288,6 @@ img.wallet {
     color: #41434C;
     font-size: 16px;
     line-height: 25px;
-    padding-bottom: 10px;
 }
 
 .downtextbox {
@@ -457,7 +456,7 @@ img.tick {
 
 .thirdimagetext {
     display: flex;
-    padding-left: 17px;
+    padding-left: 24px;
     padding-top: 8px;
     width: 337px;
 }
@@ -702,7 +701,6 @@ img.highlight {
     border: 1px solid #D7D7D7;
     border-radius: 0px 0px 4px 4px;
     background-color: #FFFFFF;
-    border-top: none;
 }
 
 .eighttextone {
@@ -1336,4 +1334,24 @@ img.tick {
     line-height: 25px;
      padding-left: 24px;
 }
+}
+@media only screen and (min-width: 768px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
