@@ -59,9 +59,10 @@ a {
     display: flex;
     width: 100%;
     justify-content: space-between;
+    max-width: 1024px;
 }
 .rightlogofirstsection {
-    padding-right: 10%;
+    padding-right: 4%;
 }
 .brandname{
     font-size: 24px;
@@ -137,6 +138,7 @@ a {
     width: 75px;
     justify-content: space-between;
     align-items: baseline;
+    padding-top: 16px;
 }
 
 .trucktext {
@@ -205,15 +207,17 @@ a {
 .secondsectioninnerbox2 {
     display: flex;
     height: 25px;
-    width: 75px;
+    width: 67px;
     justify-content: space-between;
+    padding-top: 30px;
 }
 
 .leftdottedline {
     width: 236px;
-    height: 139px;
+    height: 140px;
     border-bottom: 1px dashed #D7D7D7;
     margin-left: 5%;
+    padding-bottom: 10px;
 }
 
 .rightdottedline {
@@ -221,6 +225,7 @@ a {
     height: 140px;
     border-bottom: 1px dashed #D7D7D7;
     margin-right: 5%;
+    padding-bottom: 10px;
 }
 
 .up {
@@ -270,6 +275,7 @@ img.wallet {
     display: flex;
     justify-content: space-between;
     position: relative;
+    max-width: 1024px
 }
 
 .walletlogo {
@@ -648,6 +654,7 @@ img.tick {
     display: flex;
     margin: 0 auto;
     width: 569px;
+    max-width: 1024px;
 }
 
 .fifthsectionh1 {
@@ -676,6 +683,7 @@ img.highlight {
     background-color: #FAFAFA;
     margin: 0 auto;
     margin-top: 12px;
+    max-width: 1024px;
 }
 
 .sixthtextone {
@@ -694,6 +702,7 @@ img.highlight {
     border: 1px solid #D7D7D7;
     border-radius: 4px 4px 0px 0px;
     background-color: #FFFFFF;
+    max-width: 1024px;
 }
 
 .seventhtextone {
@@ -720,6 +729,7 @@ img.highlight {
     border: 1px solid #D7D7D7;
     border-radius: 0px 0px 4px 4px;
     background-color: #FFFFFF;
+    max-width: 1024px;
 }
 
 .eighttextone {
@@ -799,6 +809,7 @@ img.highlight {
     border-radius: 4px 4px 0px 0px;
     background-color: #FFFFFF;
     margin-top: 15px;
+    max-width: 1024px;
 }
 
 .eighttextone {
@@ -832,6 +843,7 @@ img.highlight {
     border-radius: 0px 0px 4px 4px;
     background-color: #FFFFFF;
     border-top: none;
+     max-width: 1024px;
 }
 
 .tenthtextone {
@@ -851,11 +863,13 @@ img.highlight {
     font-weight: bold;
     color: #BCBCBC;
     font-size: 12px;
+    max-width: 1024px;
 }
 
 .navimageflex {
     display: flex;
     justify-content: center;
+    max-width: 1024px;
 }
 
 .navimage {
@@ -871,6 +885,7 @@ img.highlight {
     color: #BCBCBC;
     font-size: 12px;
     margin-top: 5px;
+    max-width: 1024px;
 }
 
 .address1 {
@@ -879,6 +894,7 @@ img.highlight {
     text-align: center;
     color: #BCBCBC;
     font-size: 12px;
+    max-width: 1024px;
 }
 
 .privacy1 {
@@ -886,6 +902,7 @@ img.highlight {
     color: #BCBCBC;
     font-size: 10px;
     padding: 2;
+    max-width: 1024px;
 }
 
 .privacy:hover {
@@ -920,12 +937,14 @@ img.highlight {
     text-align: center;
     color: #BCBCBC;
     font-size: 10px;
+    max-width: 1024px;
 }
 
 .unsubscribeparent {
     display: flex;
     justify-content: center;
     text-align: center;
+    max-width: 1024px;
 }
 
 .unsubscribechild1 {
@@ -1293,7 +1312,7 @@ img.highlight {
     width: 100%;
     height: 140px;
     border-bottom: 1px dashed #D7D7D7;
-    margin-right: 5%;
+        padding-left: 0%;
 }
 .forthsectionh12 {
     height: 24.6px;
@@ -1309,6 +1328,7 @@ img.highlight {
     display: flex;
     margin: 0 auto;
     width: 100%;
+    max-width: 1024px;
 }
 .navbarparent {
     height: 78px;
