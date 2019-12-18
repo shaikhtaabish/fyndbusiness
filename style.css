@@ -55,7 +55,27 @@ a {
     float: right;
     padding-right: 24.5px;
 }
-
+.firstsectionparent {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.rightlogofirstsection {
+    padding-right: 10%;
+}
+.brandname{
+    font-size: 24px;
+    line-height: 35px;
+    color: #41434C;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.Brandlogo {
+    height: 60px;
+    width: auto;
+    padding-right: 24px;
+    padding-top: 37px;
+}
 .navleft {
     padding-top: 14px;
     padding-right: 24px;
@@ -187,7 +207,6 @@ a {
     height: 25px;
     width: 75px;
     justify-content: space-between;
-    align-items: center;
 }
 
 .leftdottedline {
@@ -256,7 +275,7 @@ img.wallet {
 .walletlogo {
     height: 53px;
     width: 48px;
-    margin-right: 24px;
+    padding-right: 24px;
 }
 
 .secondsectionrighthead {
@@ -463,7 +482,7 @@ img.tick {
 
 .divthirdtext {
     padding-top: 4px;
-    padding-left: 7px;
+        padding-left: 10px;
 }
 
 .forthsectionh1 {
@@ -928,6 +947,9 @@ img.highlight {
 }
 
 @media only screen and (max-width: 768px) {
+    .rightlogofirstsection {
+    padding-right: 0%;
+}
     .firstsectionh1 {
         height: 33px;
         width: 100%;
@@ -1224,14 +1246,17 @@ img.highlight {
     justify-content: space-between;
     padding-top: 19px;
     width: 100%;
-    padding-right: 10px;
+        margin-left: -6px;
+    
 }
 .walletlogo {
     height: 53px;
     width: 48px;
-    margin-right: 10px;
-    padding-left: 16px;
+        padding-right: 10px;
+    padding-left: 20px;
 }
+
+
 .secondsectionrighth2 {
     height: 45px;
     width: 100%;
@@ -1255,7 +1280,6 @@ img.highlight {
     color: #41434C;
     font-size: 14px;
     line-height: 25px;
-    padding-bottom: 10px;
 }
 .secondsectionlefth2 {
     height: 25px;
@@ -1301,7 +1325,7 @@ img.highlight {
     text-decoration: underline;
 }
 .firstsection {
-    padding-bottom: 25px;
+    padding-bottom: 64px;
     margin-left: 11px;
     width: 95%;
 }
@@ -1334,24 +1358,9 @@ img.tick {
     line-height: 25px;
      padding-left: 24px;
 }
+.trucklogo {
+    height: 45px;
+    width: 55px;
+    padding-right: 10px;
 }
-@media only screen and (min-width: 768px) {
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
